@@ -22,18 +22,18 @@
         "tooltip": false
     },
     "battery": {
-        "format": "{icon} {capacity}%",
-        "format-alt": "{time} {icon}",
-        "format-icons": ["B : ", "B : ", "B : ", "B : ", "B : "],
-        "format-charging": "B {capacity}%",
-        "interval": 30,
+        "bat": "BAT0",
+        "interval": 60,
         "states": {
-            "warning": 25,
-            "critical": 10
+            "warning": 30,
+            "critical": 15
         },
-        "tooltip": false
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     },
     "tray": {
         "icon-size": 15
     }
+    
 }
